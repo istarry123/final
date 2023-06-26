@@ -28,14 +28,14 @@
 
 [[socials]]
     id = "csdn"
-    url = "https://twitter.com/"
+    url = "https://blog.csdn.net/weixin_63239274?spm=1010.2135.3001.5421"
     icon = "csdn"
     title = "csdn"
     weight = 4
 
 [[socials]]
     id = "cnblog"
-    url = "https://t.me/yixiuer"
+    url = "https://www.cnblogs.com/gaiaaxy/"
     icon = "cnblog"
     title = "Cnblog"
     weight = 5
