@@ -606,7 +606,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -615,7 +615,24 @@ uglyURLs = false
 
     ## Disqus
     enableDisqus = false
-    disqusShortname = ""
+    disqusShortname = "Istarry"
+
+    ## Waline
+    enableWaline = true
+    walineServerURL = "https://blog-waline-delta-flax.vercel.app/"
+    walineWordLimit = 0
+    walinePlaceholder = "请填写正确的昵称和邮箱，方便接收评论回复信息哦。"
+    walineAvatar = "mp"
+    walineMeta = ["nick", "mail", "link"]
+    walinePageSize = 10
+    walineLang = "zh-cn"
+    walineHighlight = true
+    walineAvatarCDN = "https://cdn.v2ex.com/gravatar/"
+    walineRequiredFields = ["nick", "mail"]
+    walineLogin = "enabled"
+    walineCopyright = true
+    # 说明：https://waline.js.org/
+
 
     ## Valine
     enableValine = false
