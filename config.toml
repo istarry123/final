@@ -620,7 +620,6 @@ uglyURLs = false
     ## Waline
     enableWaline = true
     walineServerURL = "https://blog-waline-delta-flax.vercel.app/"
-    walineWordLimit = 0
     walinePlaceholder = "请填写正确的昵称和邮箱，方便接收评论回复信息哦。"
     walineAvatar = "mp"
     walineMeta = ["nick", "mail", "link"]
@@ -629,8 +628,6 @@ uglyURLs = false
     walineHighlight = true
     walineAvatarCDN = "https://cdn.v2ex.com/gravatar/"
     walineRequiredFields = ["nick", "mail"]
-    walineLogin = "enabled"
-    walineCopyright = true
     # 说明：https://waline.js.org/
 
 
